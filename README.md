@@ -14,6 +14,23 @@ Dino IDs for [Extinction](https://ark.gamepedia.com/Creature_IDs#Creatures_of_Ex
 
 ## Adding the the config 
 
+## Changing Base Stats
+
+https://ark.gamepedia.com/Server_Configuration#PerLevelStatsMultiplier
+
+example when taming a dino the wild base stats will be at 1.0
+``` ini
+# Health = 0
+PerLevelStatsMultiplier_DinoTamed[0]=1.0
+PerLevelStatsMultiplier_DinoTamed_Add[0]=1.0
+PerLevelStatsMultiplier_DinoTamed_Affinity[0]=1.0
+# Damage = 8
+PerLevelStatsMultiplier_DinoTamed[8]=1.0
+PerLevelStatsMultiplier_DinoTamed_Add[8]=1.0
+PerLevelStatsMultiplier_DinoTamed_Affinity[8]=1.0
+```
+
+## Adding in Dinos
 This is an example of adding a dino into ARK, adding Ravagers to Monster Island
 
 ConfigAddNPCSpawnEntriesContainer=
