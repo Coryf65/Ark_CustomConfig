@@ -32,9 +32,10 @@ PerLevelStatsMultiplier_DinoTamed_Affinity[8]=1.0
 
 ## Adding in Dinos
 This is an example of adding a dino into ARK, adding Ravagers to Monster Island
-
+``` ini
 ConfigAddNPCSpawnEntriesContainer=
 (NPCSpawnEntriesContainerClassString="DinoSpawnEntriesMonsterIsland",NPCSpawnEntries=((AnEntryName="Ravager1Spawner",EntryWeight=0.14,NPCsToSpawnStrings=("CaveWolf_Character_BP_C"))),NPCSpawnLimits=((NPCClassString="CaveWolf_Character_BP_C",MaxPercentageOfDesiredNumToAllow=0.14)))
+```
 
 
 DinoSpawnEntriesMonsterIsland  = The Spawn Location
